@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD8B383C1CB6296600601F69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8B383B1CB6296600601F69 /* AppDelegate.swift */; };
+		DD8B383E1CB6296600601F69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8B383D1CB6296600601F69 /* ViewController.swift */; };
+		DD8B38411CB6296600601F69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD8B383F1CB6296600601F69 /* Main.storyboard */; };
+		DD8B38431CB6296600601F69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD8B38421CB6296600601F69 /* Assets.xcassets */; };
+		DD8B38461CB6296600601F69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD8B38441CB6296600601F69 /* LaunchScreen.storyboard */; };
+		DD8B38511CB6296600601F69 /* MasuharaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8B38501CB6296600601F69 /* MasuharaTests.swift */; };
+		DD8B385C1CB6296600601F69 /* MasuharaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8B385B1CB6296600601F69 /* MasuharaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD8B384D1CB6296600601F69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD8B38301CB6296600601F69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD8B38371CB6296600601F69;
+			remoteInfo = Masuhara;
+		};
+		DD8B38581CB6296600601F69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD8B38301CB6296600601F69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD8B38371CB6296600601F69;
+			remoteInfo = Masuhara;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD8B38381CB6296600601F69 /* Masuhara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Masuhara.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD8B383B1CB6296600601F69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD8B383D1CB6296600601F69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD8B38401CB6296600601F69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD8B38421CB6296600601F69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD8B38451CB6296600601F69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD8B38471CB6296600601F69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD8B384C1CB6296600601F69 /* MasuharaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MasuharaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD8B38501CB6296600601F69 /* MasuharaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasuharaTests.swift; sourceTree = "<group>"; };
+		DD8B38521CB6296600601F69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD8B38571CB6296600601F69 /* MasuharaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MasuharaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD8B385B1CB6296600601F69 /* MasuharaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasuharaUITests.swift; sourceTree = "<group>"; };
+		DD8B385D1CB6296600601F69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD8B38351CB6296600601F69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD8B38491CB6296600601F69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD8B38541CB6296600601F69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD8B382F1CB6296600601F69 = {
+			isa = PBXGroup;
+			children = (
+				DD8B383A1CB6296600601F69 /* Masuhara */,
+				DD8B384F1CB6296600601F69 /* MasuharaTests */,
+				DD8B385A1CB6296600601F69 /* MasuharaUITests */,
+				DD8B38391CB6296600601F69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD8B38391CB6296600601F69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD8B38381CB6296600601F69 /* Masuhara.app */,
+				DD8B384C1CB6296600601F69 /* MasuharaTests.xctest */,
+				DD8B38571CB6296600601F69 /* MasuharaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD8B383A1CB6296600601F69 /* Masuhara */ = {
+			isa = PBXGroup;
+			children = (
+				DD8B383B1CB6296600601F69 /* AppDelegate.swift */,
+				DD8B383D1CB6296600601F69 /* ViewController.swift */,
+				DD8B383F1CB6296600601F69 /* Main.storyboard */,
+				DD8B38421CB6296600601F69 /* Assets.xcassets */,
+				DD8B38441CB6296600601F69 /* LaunchScreen.storyboard */,
+				DD8B38471CB6296600601F69 /* Info.plist */,
+			);
+			path = Masuhara;
+			sourceTree = "<group>";
+		};
+		DD8B384F1CB6296600601F69 /* MasuharaTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD8B38501CB6296600601F69 /* MasuharaTests.swift */,
+				DD8B38521CB6296600601F69 /* Info.plist */,
+			);
+			path = MasuharaTests;
+			sourceTree = "<group>";
+		};
+		DD8B385A1CB6296600601F69 /* MasuharaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD8B385B1CB6296600601F69 /* MasuharaUITests.swift */,
+				DD8B385D1CB6296600601F69 /* Info.plist */,
+			);
+			path = MasuharaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD8B38371CB6296600601F69 /* Masuhara */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD8B38601CB6296600601F69 /* Build configuration list for PBXNativeTarget "Masuhara" */;
+			buildPhases = (
+				DD8B38341CB6296600601F69 /* Sources */,
+				DD8B38351CB6296600601F69 /* Frameworks */,
+				DD8B38361CB6296600601F69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masuhara;
+			productName = Masuhara;
+			productReference = DD8B38381CB6296600601F69 /* Masuhara.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD8B384B1CB6296600601F69 /* MasuharaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD8B38631CB6296600601F69 /* Build configuration list for PBXNativeTarget "MasuharaTests" */;
+			buildPhases = (
+				DD8B38481CB6296600601F69 /* Sources */,
+				DD8B38491CB6296600601F69 /* Frameworks */,
+				DD8B384A1CB6296600601F69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD8B384E1CB6296600601F69 /* PBXTargetDependency */,
+			);
+			name = MasuharaTests;
+			productName = MasuharaTests;
+			productReference = DD8B384C1CB6296600601F69 /* MasuharaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD8B38561CB6296600601F69 /* MasuharaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD8B38661CB6296600601F69 /* Build configuration list for PBXNativeTarget "MasuharaUITests" */;
+			buildPhases = (
+				DD8B38531CB6296600601F69 /* Sources */,
+				DD8B38541CB6296600601F69 /* Frameworks */,
+				DD8B38551CB6296600601F69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD8B38591CB6296600601F69 /* PBXTargetDependency */,
+			);
+			name = MasuharaUITests;
+			productName = MasuharaUITests;
+			productReference = DD8B38571CB6296600601F69 /* MasuharaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD8B38301CB6296600601F69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "嶋本夏海";
+				TargetAttributes = {
+					DD8B38371CB6296600601F69 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					DD8B384B1CB6296600601F69 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = DD8B38371CB6296600601F69;
+					};
+					DD8B38561CB6296600601F69 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = DD8B38371CB6296600601F69;
+					};
+				};
+			};
+			buildConfigurationList = DD8B38331CB6296600601F69 /* Build configuration list for PBXProject "Masuhara" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD8B382F1CB6296600601F69;
+			productRefGroup = DD8B38391CB6296600601F69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD8B38371CB6296600601F69 /* Masuhara */,
+				DD8B384B1CB6296600601F69 /* MasuharaTests */,
+				DD8B38561CB6296600601F69 /* MasuharaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD8B38361CB6296600601F69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD8B38461CB6296600601F69 /* LaunchScreen.storyboard in Resources */,
+				DD8B38431CB6296600601F69 /* Assets.xcassets in Resources */,
+				DD8B38411CB6296600601F69 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD8B384A1CB6296600601F69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD8B38551CB6296600601F69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD8B38341CB6296600601F69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD8B383E1CB6296600601F69 /* ViewController.swift in Sources */,
+				DD8B383C1CB6296600601F69 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD8B38481CB6296600601F69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD8B38511CB6296600601F69 /* MasuharaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD8B38531CB6296600601F69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD8B385C1CB6296600601F69 /* MasuharaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD8B384E1CB6296600601F69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD8B38371CB6296600601F69 /* Masuhara */;
+			targetProxy = DD8B384D1CB6296600601F69 /* PBXContainerItemProxy */;
+		};
+		DD8B38591CB6296600601F69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD8B38371CB6296600601F69 /* Masuhara */;
+			targetProxy = DD8B38581CB6296600601F69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD8B383F1CB6296600601F69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD8B38401CB6296600601F69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD8B38441CB6296600601F69 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD8B38451CB6296600601F69 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD8B385E1CB6296600601F69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD8B385F1CB6296600601F69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD8B38611CB6296600601F69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Masuhara/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = a.Masuhara;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD8B38621CB6296600601F69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Masuhara/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = a.Masuhara;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DD8B38641CB6296600601F69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MasuharaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = a.MasuharaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Masuhara.app/Masuhara";
+			};
+			name = Debug;
+		};
+		DD8B38651CB6296600601F69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MasuharaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = a.MasuharaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Masuhara.app/Masuhara";
+			};
+			name = Release;
+		};
+		DD8B38671CB6296600601F69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MasuharaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = a.MasuharaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Masuhara;
+			};
+			name = Debug;
+		};
+		DD8B38681CB6296600601F69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MasuharaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = a.MasuharaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Masuhara;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD8B38331CB6296600601F69 /* Build configuration list for PBXProject "Masuhara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8B385E1CB6296600601F69 /* Debug */,
+				DD8B385F1CB6296600601F69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD8B38601CB6296600601F69 /* Build configuration list for PBXNativeTarget "Masuhara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8B38611CB6296600601F69 /* Debug */,
+				DD8B38621CB6296600601F69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD8B38631CB6296600601F69 /* Build configuration list for PBXNativeTarget "MasuharaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8B38641CB6296600601F69 /* Debug */,
+				DD8B38651CB6296600601F69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD8B38661CB6296600601F69 /* Build configuration list for PBXNativeTarget "MasuharaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8B38671CB6296600601F69 /* Debug */,
+				DD8B38681CB6296600601F69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD8B38301CB6296600601F69 /* Project object */;
+}
