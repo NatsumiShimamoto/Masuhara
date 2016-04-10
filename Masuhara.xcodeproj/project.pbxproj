@@ -11,7 +11,6 @@
 		DD6D12271CB922E700D29E1F /* plusBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = DD6D12261CB922E700D29E1F /* plusBtn.png */; };
 		DD6D122F1CB9292200D29E1F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DD6D122E1CB9292200D29E1F /* icon.png */; };
 		DD6D124D1CB949F300D29E1F /* backImg.png in Resources */ = {isa = PBXBuildFile; fileRef = DD6D124C1CB949F300D29E1F /* backImg.png */; };
-		DD7CCBD71CB95D4300950E50 /* frame.png in Resources */ = {isa = PBXBuildFile; fileRef = DD7CCBD61CB95D4300950E50 /* frame.png */; };
 		DD7CCBD91CB95DB000950E50 /* now.png in Resources */ = {isa = PBXBuildFile; fileRef = DD7CCBD81CB95DB000950E50 /* now.png */; };
 		DD7CCBDE1CB9739B00950E50 /* adult.png in Resources */ = {isa = PBXBuildFile; fileRef = DD7CCBDA1CB9739B00950E50 /* adult.png */; };
 		DD7CCBDF1CB9739B00950E50 /* baby.png in Resources */ = {isa = PBXBuildFile; fileRef = DD7CCBDB1CB9739B00950E50 /* baby.png */; };
@@ -48,7 +47,6 @@
 		DD6D12261CB922E700D29E1F /* plusBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plusBtn.png; sourceTree = "<group>"; };
 		DD6D122E1CB9292200D29E1F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		DD6D124C1CB949F300D29E1F /* backImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backImg.png; sourceTree = "<group>"; };
-		DD7CCBD61CB95D4300950E50 /* frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame.png; sourceTree = "<group>"; };
 		DD7CCBD81CB95DB000950E50 /* now.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = now.png; sourceTree = "<group>"; };
 		DD7CCBDA1CB9739B00950E50 /* adult.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = adult.png; sourceTree = "<group>"; };
 		DD7CCBDB1CB9739B00950E50 /* baby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baby.png; sourceTree = "<group>"; };
@@ -104,7 +102,6 @@
 				DD7CCBD81CB95DB000950E50 /* now.png */,
 				DD6D12261CB922E700D29E1F /* plusBtn.png */,
 				DD6D124C1CB949F300D29E1F /* backImg.png */,
-				DD7CCBD61CB95D4300950E50 /* frame.png */,
 				DD6D122E1CB9292200D29E1F /* icon.png */,
 			);
 			name = Image;
@@ -276,7 +273,6 @@
 				DD6D12271CB922E700D29E1F /* plusBtn.png in Resources */,
 				DD8B38461CB6296600601F69 /* LaunchScreen.storyboard in Resources */,
 				DD8B38431CB6296600601F69 /* Assets.xcassets in Resources */,
-				DD7CCBD71CB95D4300950E50 /* frame.png in Resources */,
 				DD6D124D1CB949F300D29E1F /* backImg.png in Resources */,
 				DD8B38411CB6296600601F69 /* Main.storyboard in Resources */,
 				DD6D12251CB9222E00D29E1F /* LucidaGrande.ttc in Resources */,
