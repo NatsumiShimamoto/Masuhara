@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD6D12251CB9222E00D29E1F /* LucidaGrande.ttc in Resources */ = {isa = PBXBuildFile; fileRef = DD6D12241CB9222E00D29E1F /* LucidaGrande.ttc */; };
+		DD6D12271CB922E700D29E1F /* plusBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = DD6D12261CB922E700D29E1F /* plusBtn.png */; };
+		DD6D122F1CB9292200D29E1F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DD6D122E1CB9292200D29E1F /* icon.png */; };
+		DD6D124D1CB949F300D29E1F /* backImg.png in Resources */ = {isa = PBXBuildFile; fileRef = DD6D124C1CB949F300D29E1F /* backImg.png */; };
+		DD7CCBD71CB95D4300950E50 /* frame.png in Resources */ = {isa = PBXBuildFile; fileRef = DD7CCBD61CB95D4300950E50 /* frame.png */; };
+		DD7CCBD91CB95DB000950E50 /* now.png in Resources */ = {isa = PBXBuildFile; fileRef = DD7CCBD81CB95DB000950E50 /* now.png */; };
+		DD7CCBDE1CB9739B00950E50 /* adult.png in Resources */ = {isa = PBXBuildFile; fileRef = DD7CCBDA1CB9739B00950E50 /* adult.png */; };
+		DD7CCBDF1CB9739B00950E50 /* baby.png in Resources */ = {isa = PBXBuildFile; fileRef = DD7CCBDB1CB9739B00950E50 /* baby.png */; };
+		DD7CCBE01CB9739B00950E50 /* child.png in Resources */ = {isa = PBXBuildFile; fileRef = DD7CCBDC1CB9739B00950E50 /* child.png */; };
+		DD7CCBE11CB9739B00950E50 /* teen.png in Resources */ = {isa = PBXBuildFile; fileRef = DD7CCBDD1CB9739B00950E50 /* teen.png */; };
 		DD8B383C1CB6296600601F69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8B383B1CB6296600601F69 /* AppDelegate.swift */; };
 		DD8B383E1CB6296600601F69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8B383D1CB6296600601F69 /* ViewController.swift */; };
 		DD8B38411CB6296600601F69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD8B383F1CB6296600601F69 /* Main.storyboard */; };
@@ -34,6 +44,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD6D12241CB9222E00D29E1F /* LucidaGrande.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = LucidaGrande.ttc; sourceTree = "<group>"; };
+		DD6D12261CB922E700D29E1F /* plusBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plusBtn.png; sourceTree = "<group>"; };
+		DD6D122E1CB9292200D29E1F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		DD6D124C1CB949F300D29E1F /* backImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backImg.png; sourceTree = "<group>"; };
+		DD7CCBD61CB95D4300950E50 /* frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame.png; sourceTree = "<group>"; };
+		DD7CCBD81CB95DB000950E50 /* now.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = now.png; sourceTree = "<group>"; };
+		DD7CCBDA1CB9739B00950E50 /* adult.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = adult.png; sourceTree = "<group>"; };
+		DD7CCBDB1CB9739B00950E50 /* baby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baby.png; sourceTree = "<group>"; };
+		DD7CCBDC1CB9739B00950E50 /* child.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = child.png; sourceTree = "<group>"; };
+		DD7CCBDD1CB9739B00950E50 /* teen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teen.png; sourceTree = "<group>"; };
 		DD8B38381CB6296600601F69 /* Masuhara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Masuhara.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD8B383B1CB6296600601F69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD8B383D1CB6296600601F69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +94,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD6025E81CB7A82D0086319D /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				DD7CCBDB1CB9739B00950E50 /* baby.png */,
+				DD7CCBDC1CB9739B00950E50 /* child.png */,
+				DD7CCBDD1CB9739B00950E50 /* teen.png */,
+				DD7CCBDA1CB9739B00950E50 /* adult.png */,
+				DD7CCBD81CB95DB000950E50 /* now.png */,
+				DD6D12261CB922E700D29E1F /* plusBtn.png */,
+				DD6D124C1CB949F300D29E1F /* backImg.png */,
+				DD7CCBD61CB95D4300950E50 /* frame.png */,
+				DD6D122E1CB9292200D29E1F /* icon.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
 		DD8B382F1CB6296600601F69 = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +133,14 @@
 		DD8B383A1CB6296600601F69 /* Masuhara */ = {
 			isa = PBXGroup;
 			children = (
+				DD6D12241CB9222E00D29E1F /* LucidaGrande.ttc */,
 				DD8B383B1CB6296600601F69 /* AppDelegate.swift */,
 				DD8B383D1CB6296600601F69 /* ViewController.swift */,
 				DD8B383F1CB6296600601F69 /* Main.storyboard */,
 				DD8B38421CB6296600601F69 /* Assets.xcassets */,
 				DD8B38441CB6296600601F69 /* LaunchScreen.storyboard */,
 				DD8B38471CB6296600601F69 /* Info.plist */,
+				DD6025E81CB7A82D0086319D /* Image */,
 			);
 			path = Masuhara;
 			sourceTree = "<group>";
@@ -229,9 +267,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD7CCBE01CB9739B00950E50 /* child.png in Resources */,
+				DD7CCBDF1CB9739B00950E50 /* baby.png in Resources */,
+				DD7CCBDE1CB9739B00950E50 /* adult.png in Resources */,
+				DD7CCBE11CB9739B00950E50 /* teen.png in Resources */,
+				DD6D122F1CB9292200D29E1F /* icon.png in Resources */,
+				DD7CCBD91CB95DB000950E50 /* now.png in Resources */,
+				DD6D12271CB922E700D29E1F /* plusBtn.png in Resources */,
 				DD8B38461CB6296600601F69 /* LaunchScreen.storyboard in Resources */,
 				DD8B38431CB6296600601F69 /* Assets.xcassets in Resources */,
+				DD7CCBD71CB95D4300950E50 /* frame.png in Resources */,
+				DD6D124D1CB949F300D29E1F /* backImg.png in Resources */,
 				DD8B38411CB6296600601F69 /* Main.storyboard in Resources */,
+				DD6D12251CB9222E00D29E1F /* LucidaGrande.ttc in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +448,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Masuhara/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = a.Masuhara;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,6 +460,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Masuhara/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = a.Masuhara;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -482,6 +532,7 @@
 				DD8B38621CB6296600601F69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD8B38631CB6296600601F69 /* Build configuration list for PBXNativeTarget "MasuharaTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +541,7 @@
 				DD8B38651CB6296600601F69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD8B38661CB6296600601F69 /* Build configuration list for PBXNativeTarget "MasuharaUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +550,7 @@
 				DD8B38681CB6296600601F69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
